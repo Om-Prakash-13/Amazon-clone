@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* border-box: this porperty is saying that if we are giving any border to any object then it will include the height and width of the object. the content area will be reduce.  */
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* logo */
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./assets/amazon_logo.png);
+}
+.border{
+    border: 2px solid transparent;
+    padding: 3px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* address box */
+
+.upper-add{
+    border: 2px solid transparent;
+    font-size: 0.95rem;
+    color: #cccccc;
+    margin-left: 1.25rem;
+}
+.lower-add{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.lower-add p{
+    margin-left: .25rem;
+}
+
+/* Search box*/
+.nav-search{
+    display: flex;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 3.5px solid #f89900;
+    border-radius: 9px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 7%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.search-input{
+    width: 88%;
+    border: none;
+    border-radius: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f89900;
+    border-radius: 0 5px 5px 0;
+}
+.fa-solid{
+    font-size: 1.5rem;
+    color:#0f1111;
+}
+
+/* box-4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart img{
+    height: 30px;
+}
+
+.pannel{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.pannel-all, .pannel-option, .pannel-right{
+    display: flex;
+}
+.pannel-all{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 5%;
+    height: 25px;
+    font-weight: 700;
+}
+.pannel-option{
+    width: 80%;
+}
+.pannel-right{
+    width: 17%;
+    font-weight: 700;
+}
+.pannel-all p{
+    line-height: 25px;
+}
+.pannel-option p{
+    margin-left: 1rem;
+}
+
+/* Hero Image */
+.hero-image{
+    background-image: url("./assets/hero_image.jpg");
+    height: 280px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 1rem;
+}
+a{
+    color: #007185;
+    text-decoration: none;
+}
+/*Shoping section*/
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 350px;
+    padding: 1rem;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+.box .box-img{
+    height: 80%;
+    background-size: cover;
+    margin: 1rem 0 1rem 0;
+}
+
+/*Footer*/
+.footer-pannel1{
+    background-color: #37475a;
+    color: white;
+    padding: 1.25rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.footer-pannel2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222f3d;
+    color: white;
+    padding: 3rem;
+}
+.footer-pannel2 ul{
+    margin-top: 1rem;
+}
+.ul-p p{
+    color: #cccccc;
+    padding: 0.25rem;
+}
+.footer-pannel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid #626262cc;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-pannel3 .logo{
+    background-image: url("./assets/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.footer-pannel4{
+    background-color: #131921;
+    color: #ccc;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.footer-pannel4 p{
+    padding: 0.25rem;
+}
