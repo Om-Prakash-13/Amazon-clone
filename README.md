@@ -2,15 +2,6 @@
 
 This is a clone of Amazon's website built using HTML, CSS, and FontAwesome icons. The project mimics the structure, layout, and styling of Amazon's homepage, including features like a navigation bar, search box, shopping categories, and footer.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Credits](#credits)
-- [License](#license)
-
 ## Features
 
 - **Navigation Bar**: Contains logo, address box, search bar, sign-in section, orders, and cart.
